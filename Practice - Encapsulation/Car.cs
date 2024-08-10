@@ -49,7 +49,7 @@ namespace Practice___Encapsulation
                 _color = value;
             }
         }
-        // Property for accessing and modifying the _color field.
+        // Property for accessing and modifying the _doorNum field.
         public int DoorNum
         {
             get
