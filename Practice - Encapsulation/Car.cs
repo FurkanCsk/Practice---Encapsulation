@@ -13,6 +13,7 @@ namespace Practice___Encapsulation
         private string _color;
         private int _doorNum;
 
+        // Property for accessing and modifying the _brand field.
         public string Brand
         {
             get
@@ -24,6 +25,7 @@ namespace Practice___Encapsulation
                 _brand = value;
             }
         }
+        // Property for accessing and modifying the _model field.
         public string Model 
         {
             get
@@ -35,6 +37,7 @@ namespace Practice___Encapsulation
                 _model = value;
             }
         }
+        // Property for accessing and modifying the _color field.
         public string Color
         {
             get
@@ -46,6 +49,7 @@ namespace Practice___Encapsulation
                 _color = value;
             }
         }
+        // Property for accessing and modifying the _color field.
         public int DoorNum
         {
             get
@@ -67,11 +71,13 @@ namespace Practice___Encapsulation
             }
         }
 
+        // Default Constructor, initializes a new instance of the Car class.
         public Car()
         {
 
         }
 
+        // Initialize a new instance of the Car class with specified values
         public Car(string brand, string model, string color, int doorNum)
         {
             Brand = brand;
@@ -80,6 +86,7 @@ namespace Practice___Encapsulation
             DoorNum = doorNum;
         }
 
+        // Mehthod that displays the car's informations, including its brand, model, color and door count.
         public void DisplayCar()
         {
             Console.WriteLine($"Car Brand : {_brand}\nCar Model : {_model}\nCar Color : {_color}\nDoor Number : {_doorNum}\n");
